@@ -38,7 +38,7 @@ curl --location 'http://localhost:3001/api/auth/register' \
 }'
 ```
 
-##Login
+## Login
 ```bash
 curl --location 'http://localhost:3001/api/auth/login' \
 --header 'Content-Type: application/json' \
@@ -48,7 +48,7 @@ curl --location 'http://localhost:3001/api/auth/login' \
 }'
 ```
 
-##Buy tickets
+## Buy tickets
 ```bash
 curl --location 'http://localhost:3001/api/auth/login' \
 --header 'Content-Type: application/json' \
@@ -58,7 +58,7 @@ curl --location 'http://localhost:3001/api/auth/login' \
 }'
 ```
 
-##Get baught tickets
+## Get baught tickets
 ```bash
 curl --location 'http://localhost:3000/api/tambola/ticket-list?page=1&limit=1' \
 --header 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjJkZmY4YTI5ZTc5Y2NhNWIxZTZmMiIsImlhdCI6MTY4OTQ0NDQwMX0.JfydIwnijTuedEtEEu3JSJPM3P0T00n3HiP05ZWKID0' \
