@@ -1,4 +1,4 @@
-# Node.js MVC Backend Template
+# UNIBIT API
 
 Go to the project directory
 
